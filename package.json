@@ -1,0 +1,33 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fesjs/fes-design": "^0.8.17",
+    "@iconify/json": "^2.2.138",
+    "@imengyu/vue3-context-menu": "^1.1.7",
+    "@types/lodash-es": "^4.17.12",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "@vueuse/core": "^10.7.0",
+    "chatgpt": "^5.2.4",
+    "less": "^4.2.0",
+    "lodash-es": "^4.17.21",
+    "primevue": "^3.49.1",
+    "unplugin-icons": "^0.17.0",
+    "vite-plugin-node-polyfills": "^0.19.0",
+    "vite-plugin-wasm": "^3.2.2",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.5.0",
+    "vue-tsc": "^1.8.5"
+  }
+}
